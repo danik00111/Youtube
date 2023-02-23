@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 *{margin:0;padding:0;border:0;outline:0;list-style:none;box-sizing:border-box;text-decoration:none;font-family:'Roboto';}body{background-color:#211f1f;}
+hr{border:0.7px solid white;margin:16px 0;}
 .header {
   max-width: 1300px;
   margin: 0 auto;
@@ -149,12 +150,32 @@ form{
   margin: 0 auto;
 }
 .section1 {
-  border: 1px solid aliceblue;
+  /* border: 1px solid aliceblue; */
+  color: white;
 }
 .section1__item {
+  display: flex;
 }
-.section1__item-name {
+.section1__item > i {
+  font-size: 16px;
+  margin-right: 8px;
+  color: white;
+}
+.section1__item:not(:last-child) {
+  margin-top: 16px;
+}
+h3.section1__header {
+  margin-bottom: 16px;
 }
 .section2 {
-  border: 1px solid aliceblue;
+  /* border: 1px solid aliceblue; */
 }
+.section1__item > .fa-youtube {
+  font-size: 25px;
+  color: red;
+}
+
+  .section1__item > .fa-youtube::after {
+    width: 12px;
+    height: 12px;
+  }
