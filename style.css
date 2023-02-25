@@ -176,7 +176,7 @@ form {
   height: 48px;
 }
 
-.aside {
+.container {
   display: flex;
   max-width: 1320px;
   margin: 20px auto;
@@ -247,26 +247,28 @@ hr {
   position: relative;
   border: 1px solid white;
 }
-.section-2 li {
+.section-2 ul {
+  display: flex;
+  justify-content: space-between;
+}
+.section-2 ul li {
   background: #272727;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 2px 5px;
-  border-radius: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s;
 }
-.section-2 li:hover {
+.section-2 ul li:hover {
   background: #3f3f3f;
+  transition: 0.3s;
 }
-.section-2 li a {
+.section-2 ul li a {
   color: white;
 }
-.section-2 li:first-child {
+.section-2 ul li:first-child {
   background: white;
 }
-.section-2 li:first-child a {
+.section-2 ul li:first-child a {
   color: black;
-}
-
-.section2__nav-item {
-  display: inline-block;
 }/*# sourceMappingURL=style.css.map */

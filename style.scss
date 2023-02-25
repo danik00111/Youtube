@@ -178,7 +178,7 @@ form {
   height: 48px;
 }
 
-.aside {
+.container {
   display: flex;
   max-width: 1320px;
   margin: 20px auto;
@@ -252,33 +252,41 @@ hr {
   position: relative;
   border: 1px solid white;
 
-  li {
-    background: #272727;
-    width: fit-content;
-    padding: 2px 5px;
-    border-radius: 15px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    // font-size: 12px;
 
-    &:hover {
-      background: #3f3f3f;
-    }
+    li {
+      background: #272727;
+      width: fit-content;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: .3s;
 
-    a {
-      color: white;
-    }
-
-
-    &:first-child {
-      background: white;
+      &:hover {
+        background: #3f3f3f;
+        transition: .3s;
+      }
 
       a {
-        color: black;
+        color: white;
+      }
+
+
+      &:first-child {
+        background: white;
+
+        a {
+          color: black;
+        }
       }
     }
   }
 }
 
-.section2__nav {}
+// .section2__nav {}
 
-.section2__nav-item {
-  display: inline-block;
-}
+// .section2__nav-item {
+// display: inline-block;
+// }
