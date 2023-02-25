@@ -283,6 +283,23 @@ hr {
 
       &:last-child {
         position: relative;
+        box-shadow: inset -30px 0 20px #0f0f0f;
+
+        &::before {
+          content: '';
+          position: absolute;
+          width: 30%;
+          height: 100%;
+          box-shadow: -10px 0 10px #0f0f0f;
+          background: #0f0f0f;
+          right: 0;
+          top: 0;
+        }
+
+        &::after {
+          content: '>';
+          position: absolute;
+        }
       }
     }
   }

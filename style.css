@@ -274,4 +274,19 @@ hr {
 }
 .section-2 ul li:last-child {
   position: relative;
+  box-shadow: inset -30px 0 20px #0f0f0f;
+}
+.section-2 ul li:last-child::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  box-shadow: -10px 0 10px #0f0f0f;
+  background: #0f0f0f;
+  right: 0;
+  top: 0;
+}
+.section-2 ul li:last-child::after {
+  content: ">";
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
