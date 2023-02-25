@@ -208,21 +208,21 @@ form {
     position: relative;
     margin-right: 0px;
   }
-}
 
-.section-1__item-second .section-1__item-name {
-  margin-left: 22px;
-}
+  .section-1__item-name {
+    margin-left: 22px;
+  }
 
-.section-1__item-second .fa-youtube::after {
-  position: absolute;
-  content: '';
-  width: 10px;
-  height: 10px;
-  background: white;
-  left: 30%;
-  top: 25%;
-  z-index: -1;
+  .fa-youtube::after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: white;
+    left: 30%;
+    top: 25%;
+    z-index: -1;
+  }
 }
 
 .section-1__item-name {
