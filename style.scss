@@ -252,26 +252,30 @@ hr {
   position: relative;
   border: 1px solid white;
 
-  li {
-    background: #272727;
-    width: fit-content;
-    padding: 5px;
-    border-radius: 15px;
+  ul {
+    display: flex;
 
-    &:hover {
-      background: #3f3f3f;
-    }
+    li {
+      background: #272727;
+      width: fit-content;
+      padding: 2px 5px;
+      border-radius: 15px;
 
-    a {
-      color: white;
-    }
-
-
-    &:first-child {
-      background: white;
+      &:hover {
+        background: #3f3f3f;
+      }
 
       a {
-        color: black;
+        color: white;
+      }
+
+
+      &:first-child {
+        background: white;
+
+        a {
+          color: black;
+        }
       }
     }
   }

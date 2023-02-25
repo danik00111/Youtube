@@ -247,22 +247,25 @@ hr {
   position: relative;
   border: 1px solid white;
 }
-.section-2 li {
+.section-2 ul {
+  display: flex;
+}
+.section-2 ul li {
   background: #272727;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 5px;
+  padding: 2px 5px;
   border-radius: 15px;
 }
-.section-2 li:hover {
+.section-2 ul li:hover {
   background: #3f3f3f;
 }
-.section-2 li a {
+.section-2 ul li a {
   color: white;
 }
-.section-2 li:first-child {
+.section-2 ul li:first-child {
   background: white;
 }
-.section-2 li:first-child a {
+.section-2 ul li:first-child a {
   color: black;
 }/*# sourceMappingURL=style.css.map */
