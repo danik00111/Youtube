@@ -248,7 +248,7 @@ hr {
 .section-2 {
   height: 1300px;
   width: 70%;
-  padding: 15px;
+  padding: 0 15px;
   position: relative;
   border: 1px solid white;
 
@@ -257,6 +257,19 @@ hr {
 
     &:hover {
       background: #3f3f3f;
+    }
+
+    a {
+      color: white;
+    }
+
+
+    &:first-child {
+      background: white;
+
+      a {
+        color: black;
+      }
     }
   }
 }
