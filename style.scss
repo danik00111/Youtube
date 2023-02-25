@@ -282,7 +282,7 @@ hr {
       }
 
       &:last-child {
-        box-shadow: inset -20px 0px 20px #0f0f0f;
+        position: relative;
       }
     }
   }
