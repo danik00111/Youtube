@@ -252,31 +252,33 @@ hr {
   position: relative;
   border: 1px solid white;
 
-  ul {
-    display: flex;
+  li {
+    background: #272727;
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 15px;
 
-    li {
-      background: #272727;
-      width: fit-content;
-      padding: 2px 5px;
-      border-radius: 15px;
+    &:hover {
+      background: #3f3f3f;
+    }
 
-      &:hover {
-        background: #3f3f3f;
-      }
+    a {
+      color: white;
+    }
+
+
+    &:first-child {
+      background: white;
 
       a {
-        color: white;
-      }
-
-
-      &:first-child {
-        background: white;
-
-        a {
-          color: black;
-        }
+        color: black;
       }
     }
   }
+}
+
+.section2__nav {}
+
+.section2__nav-item {
+  display: inline-block;
 }
