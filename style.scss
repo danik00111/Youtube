@@ -269,17 +269,11 @@ hr {
         transition: .3s;
       }
 
-      a {
-        color: white;
-      }
-
+      color: white;
 
       &:first-child {
         background: white;
-
-        a {
-          color: black;
-        }
+        color: black;
       }
     }
   }

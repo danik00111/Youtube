@@ -258,17 +258,13 @@ hr {
   padding: 5px 10px;
   border-radius: 5px;
   transition: 0.3s;
+  color: white;
 }
 .section-2 ul li:hover {
   background: #3f3f3f;
   transition: 0.3s;
 }
-.section-2 ul li a {
-  color: white;
-}
 .section-2 ul li:first-child {
   background: white;
-}
-.section-2 ul li:first-child a {
   color: black;
 }/*# sourceMappingURL=style.css.map */
