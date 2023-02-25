@@ -249,6 +249,10 @@ hr {
 }
 .section-2 li {
   background: #272727;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 15px;
 }
 .section-2 li:hover {
   background: #3f3f3f;

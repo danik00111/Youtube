@@ -254,6 +254,9 @@ hr {
 
   li {
     background: #272727;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 15px;
 
     &:hover {
       background: #3f3f3f;
