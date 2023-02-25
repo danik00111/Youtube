@@ -256,7 +256,8 @@ hr {
     display: flex;
     justify-content: space-between;
 
-    // font-size: 12px;
+    font-size: 12px;
+
     a {
       display: inline-block;
     }
@@ -280,7 +281,9 @@ hr {
         color: black;
       }
 
-      // &:last-child::after {}
+      &:last-child {
+        box-shadow: inset -20px 0px 20px #0f0f0f;
+      }
     }
   }
 }
