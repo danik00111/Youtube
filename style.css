@@ -251,6 +251,9 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+.section-2 ul a {
+  display: inline-block;
+}
 .section-2 ul li {
   background: #272727;
   width: -moz-fit-content;

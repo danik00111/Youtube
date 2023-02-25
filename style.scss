@@ -255,7 +255,11 @@ hr {
   ul {
     display: flex;
     justify-content: space-between;
+
     // font-size: 12px;
+    a {
+      display: inline-block;
+    }
 
     li {
       background: #272727;
@@ -275,6 +279,8 @@ hr {
         background: white;
         color: black;
       }
+
+      // &:last-child::after {}
     }
   }
 }
